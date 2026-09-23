@@ -1,0 +1,10 @@
+Operating Systems Lab
+Backup and Restore Practical
+Student Name: Poojitha Musunuri
+Department: CSE AIML
+University: KL University
+Linux Commands Practice
+File Management
+Backup Process
+Restore Process
+End of File

@@ -1,0 +1,9 @@
+#Linux File Backup and Synchronization System Using System Calls
+
+## Abstract
+
+The Linux File Backup and Synchronization System Using System Calls is a Linux-based application designed to provide efficient and reliable file backup and synchronization. The system allows users to create backups of important files and synchronize data between source and backup directories, helping prevent data loss and maintain updated copies of files. It uses Linux system calls such as `open()`, `read()`, `write()`, `close()`, `stat()`, and directory-related functions to directly interact with the file system.
+
+The system checks files for changes and copies or updates them in the backup location when necessary. By using system calls instead of relying on high-level library functions, the project demonstrates fundamental operating system concepts such as file descriptors, file handling, directory management, and process-level interaction with the Linux kernel. This provides a practical understanding of Linux file management while implementing a simple and reliable mechanism for data backup and synchronization.
+
+The system also aims to improve backup efficiency by avoiding unnecessary copying of unchanged files. It compares file properties such as size and modification time to identify changes and synchronizes only the required files. This reduces execution time and storage usage while ensuring that the backup directory remains consistent with the source directory. The project demonstrates how operating system calls can be applied to build a practical file management utility and provides hands-on experience with Linux programming, file I/O, directory operations, and data synchronization.
